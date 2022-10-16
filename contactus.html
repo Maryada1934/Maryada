@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+
+
+	<style>
+
+		body{
+			background-image: url('https://burst.shopifycdn.com/photos/a-phone-on-a-blue-background-with-contact-us.jpg?width=1200&format=pjpg&exif=1&iptc=1');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		div{
+			margin-left: 70%;
+			margin-top: 15%;
+
+		}
+
+		input{
+			height: 40px;
+			width: 400px;
+			padding: 4px;
+			border-style:none;
+			border-color: rgba(255,255,255,0.1);
+			border-bottom-style: solid;
+			background: rgba(255,255,255,0.1);
+			font-size: 20px;
+			border-radius: 30px;
+			padding: 5px;
+			padding-left: 10px;	
+			color: white;		
+		}
+
+		input:hover{
+			background-color: #B2C8DF;
+		}
+
+		.button{
+			width: 180px;
+			height: 50px;
+			margin-left: 25%;
+			border-style: none;
+			color: whitesmoke;
+			background-color: #256D85;
+		}
+
+
+
+	</style>	
+</head>
+<body>
+
+	<div>
+
+		<form>
+
+			<input type="text" name="Name" class="text" id="myDiv" required autocomplete="off" placeholder="Your Name.....">
+			<br>
+			<br>
+			<input type="number" name="number" class="text" value="Number" required autocomplete="off" placeholder="Your Contact Number.....">
+			<br>
+			<br>
+			<input type="text" name="message" class="text"  autocomplete="off"  placeholder="Your Message for Us...." required>
+			<br>
+			<br>
+			<input type="submit" name="submit" value="Send Message" class="button" onclick="func();">
+
+		</form>	
+
+	</div>	
+
+	<script type="text/javascript">
+		
+		function func(){
+			alert("Your message is successfully recorded!");
+		}
+	</script>
+
+</body>
+</html>

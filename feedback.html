@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+
+
+	<link rel="stylesheet" type="text/css" href="C:\Users\ram\Desktop\FrontEndDevelopment\CSS\feedback.css">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Oxygen&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>FEEDBACK FORM</h1>
+
+		<hr class="line">
+
+		<input type="text" name="FirstName" placeholder="FirstName" required autocomplete="off">
+		<br>
+		<input type="text" name="LastName" placeholder="LastName" required autocomplete="off">
+		<br>
+		<input type="number" name="Number" placeholder="Contact Number" required autocomplete="off">
+		<br>
+		<input type="email" name="email" placeholder="Email" required autocomplete="off">
+		<br>
+		<textarea rows="5" cols="50" required placeholder="Your Feedback"></textarea>
+		<br>
+		<input type="submit" name="Submit" class="btn" onclick="func();">
+
+	</div>	
+
+	<script type="text/javascript">
+		
+		function func(){
+			alert("Your feedback form is Successfully submitted");
+		}
+
+	</script>
+
+</body>
+</html>

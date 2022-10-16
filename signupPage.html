@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SignUpForm</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\ram\Desktop\FrontEndDevelopment\CSS\signup.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=M+PLUS+Rounded+1c&family=Oxygen&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="head">
+			<h1>Sign Up</h1>
+			<h3>Please fill in this form to create an account !</h3>
+		</div>
+
+		<hr>
+		
+		<div class="form">
+			<form>
+				<input type="text" name="FirstName" placeholder="First Name" class="input1">
+				<input type="text" name="LastName" placeholder="Last Name" class="input1">
+
+				<br>
+				<br>
+
+				<input type="email" name="email" placeholder="E-mail" class="input" autocomplete="off">
+				<br>
+				<br>
+
+				<input type="password" name="Password" placeholder="Password" class="input" autocomplete="off">
+				<br>
+				<br>
+
+				<input type="password" name="cnfrmPassword" placeholder="Confirm Password" class="input" autocomplete="off">
+				<br>
+				<br>
+
+				<input type="checkbox" name="checkbox"><span>I accept the <a href="#">Terms of Use</a> and<a href="#"> Privacy Policy</a>.</span>
+				<br>
+				<br>
+
+				<input type="submit" value="Sign Up" class="btn" onclick="func();">
+			</form>	
+		</div>	
+	</div>	
+
+
+	<script>
+
+		function func(){
+			alert('Your account is Successfully created.Go to login page to login!');
+		}
+	</script>	
+
+</body>
+</html>

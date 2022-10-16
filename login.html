@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+	<title>Login</title>
+
+
+	<style>
+
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		body{
+			background-color: black;
+			padding: 0px;
+		}
+
+		h1{
+			margin-top: 20%;
+			font-family: 'Merriweather', serif;
+			color: #395B64;
+		}
+
+		.marginset{
+			margin-left: 20%;
+		}
+
+		input:hover{
+			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+			border-style: none;
+		}
+
+		.widthset{
+			width: 50%;
+			padding: 10px;
+		}
+
+		input{
+			margin-bottom: 10px;
+			margin-top: 10px;
+			border-style: none;
+			padding: 10px;
+
+		}
+
+		.remember{
+			margin-right: 20%;
+		}
+
+		.button {
+		  -webkit-border-radius: 19;
+		  -moz-border-radius: 19;
+		  border-radius: 19px;
+		  font-family: Georgia;
+		  color: #ffffff;
+		  font-size: 20px;
+		  background: #94B49F;
+		  padding: 10px 20px 10px 20px;
+		  text-decoration: none;
+		}
+
+		.button:hover {
+		  background: #DFE8CC;
+		  text-decoration: none;
+		}
+
+		.row{
+			width: 20%;
+			display: inline-block;
+			border-color: #377D71;
+			border-bottom-style:none ;
+			opacity: 0.8;
+		}
+		span{
+			padding: 20px;
+			font-size: 25px;
+			color: gray;
+
+		}
+		.column{
+			flex: 20%;
+			padding: 0px;
+			padding-bottom: 0px;
+		}
+
+		.parent{
+			display: flex;
+		}
+
+		img{
+			width: 100%;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			padding: 0px;
+			height: 99.5vh;
+			opacity: 0.9;
+		}
+
+		label{
+			font-size: 18px;
+			font-family: 'Merriweather', serif;
+			color: gray;
+
+		}
+
+		li{
+			display: inline-block;
+			padding: 10px;
+			margin-top: 10px;
+		}
+		.smallimage{
+			height: 30px;
+			width: 30px;
+			opacity: 1;
+		}
+
+		a{
+			text-decoration: none;
+			color: gray;
+			font-size: 18px;
+		}
+
+		.imagecolumn{
+			margin-top: -2px;
+			margin-left: -3px;
+			margin-bottom: -10px;
+		}
+
+		.newuser{
+			font-size: 18px;
+			color: #395B64;
+		}
+	
+
+	</style>	
+</head>
+<body>
+
+<div class="parent">
+	<div class="column">
+
+		
+		<div class="marginset">
+		<h1 >LOGIN</h1>
+
+		<label for="email">E-mail:</label><br>
+		<input type="email" id="email" name="email" required placeholder="Username or email" class="widthset" autocomplete="off" >
+
+		<br>
+		<br>
+
+		<label for="password">Password:</label><br>
+		<input type="password" name="password" id="password" required placeholder="Password" required class="widthset" autocomplete="off" ><br>
+
+		 
+
+
+		<input type="checkbox" name="remember" id="remember" required >
+		<label for="remember" class="remember">Remember Me?</label>
+
+		<input type="submit" name="button" value="Log In" class="button" onclick="func();">
+
+		<br>
+		<br>
+
+		<p><a href="C:\Users\ram\Desktop\FrontEndDevelopment\forgetPass.html">Forgot Password?</a></p>
+
+		<hr class="row"><span>OR</span><hr class="row">
+		<br>
+
+		<ul type="none">
+			<li><a href="https://www.google.com/"><img class="smallimage" src="C:\Users\ram\Desktop\FrontEndDevelopment\images\google.png"></a></li>
+			<li><a href="https://www.instagram.com/"><img class="smallimage" src="C:\Users\ram\Desktop\FrontEndDevelopment\images\instagram.png"></a></li>
+			<li><a href="https://www.twitter.com/"><img class="smallimage" src="C:\Users\ram\Desktop\FrontEndDevelopment\images\twitter.png"></a></li>
+			<li><a href="https://www.facebook.com/"><img class="smallimage" src="C:\Users\ram\Desktop\FrontEndDevelopment\images\facebook.png"></a></li>
+		</ul>
+
+		<br>
+
+		<p class="newuser">New User? <a href="signupPage.html" class="signup">Create an Account</a>	
+
+	</div>
+	
+
+	</div>
+
+	<div class="column imagecolumn">
+		<img src="C:\Users\ram\Desktop\FrontEndDevelopment\images\login3.jpg">
+	</div>
+
+	</div>	
+
+	<script>
+
+		function func(){
+			alert('You are successfully logged in!');
+		}
+	</script>	
+		
+
+</body>
+</html>
+
+
+<!-- 
+
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+
+ -->
