@@ -1,0 +1,321 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+		background-color: black;
+		color: white;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 14px;
+		height: 70px;
+		opacity: 0.9;
+
+}
+
+.searchimg{
+	height: 25px;
+	width: 25px;
+	margin-bottom: -5px;
+}
+
+.search-icon{
+	height: 22px;
+	width: 22px;
+	color:  white;
+}
+
+.search-input{
+	height:  40px;
+	width:  280px;
+	border-radius:  28px;
+	font-size: 15px;
+	/*margin-left: 300px;*/
+	padding: 15px;
+	border-style: none;
+}
+
+.search-input:hover{
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+
+.cartimg{
+
+	height: 40px;
+	width: 40px;
+	margin-bottom: -10px;
+}
+
+
+
+.brandname{
+	margin-right: 38%;
+	font-size: 35px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.BestSellers{
+	margin-left: 43%;
+	font-size: 45px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	opacity: 0.9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.row1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 5px;
+}
+
+.card1{
+	height: 400px;
+	width: 250px;
+	background-color: black;
+	opacity: 0.8;
+	padding: 20px;
+	border-radius: 10%;
+	transition: transform .2s;
+}
+
+.card1:hover{
+	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+	transform: scale(0.9);
+}
+
+.line{
+	border-style: dotted;
+	border-width: 7px;
+	border-color: gray;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	width: 10%;
+	margin-top: 70px;
+	opacity: 0.7;
+}
+
+.DealsOfTheDay{
+	margin-left: 40%;
+	font-size: 45px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	opacity: 0.9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.newLaunches{
+	margin-left: 40%;
+	font-size: 45px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	opacity: 0.9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.card2{
+	height: 500px;
+	width: 90%;
+	background-color: whitesmoke;
+	opacity: 0.8;
+	padding: 10px;
+	border-radius: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform .2s;
+}
+
+.card2:hover{
+	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+	transform: scale(1.1);
+}
+
+.brands{
+	margin-left: 45%;
+	font-size: 45px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	opacity: 0.9;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.imagep1{
+	height: 230px;
+	width: 220px;
+	padding: 7px;
+	border-radius: 20%;
+}
+
+.image1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.image1 p{
+	font-size: 18px;
+	color: white;
+}
+
+.imagep2{
+	height: 490px;
+	width: 98%;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+.brandsdiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+.imagex{
+	height: 50px;
+	width: 70px;
+}
+
+.bottom-container{
+	background-color: black;
+	opacity: 0.9;
+	height: 200px;
+	padding: 50px 0 20px;
+	
+}
+
+.footer-link{
+	padding: 20px;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+.firstfooterele{
+	margin-left: 35%;
+}
+
+.feedback{
+	margin-left: 39%;
+	
+}
+
+/*.info p{
+	color: whitesmoke;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 80%;
+}
+*/
+.ContactUs{
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.row3{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			margin-top: 20px;
+			margin-bottom: 40px;
+			padding: 5px;
+		}
+
+		.card5{
+			height: 150px;
+			width: 150px;
+			background-color: silver;
+			opacity: 0.8;
+			/*padding: 20px;*/
+			border-radius: 50%;
+			transition: transform .2s;
+		}
+
+		.card5:hover{
+			transform: scale(1.1);
+		}
+
+		.circleimage{
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+
+		.row3{
+
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+
+		.white{    
+    text-align: center;
+    font-size: 60px;
+    
+    color: rgb(165, 216, 13);
+
+}
+.demo1{
+    
+    color: rgb(222, 163, 24);
+    text-align: center;
+font-size: 60px;
+
+
+}
+#demo{
+    border-radius: 2px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+font-size: 60px;
+
+
+}
+
+.slideshow-container {
+    margin: 0 ,0, 50px, 0;
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+  }
+
+  .mySlides {display: none;}.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
